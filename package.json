@@ -1,0 +1,21 @@
+{
+  "name": "service-now-actions",
+  "version": "0.0.1",
+  "private": true,
+  "author": "James McShane <jmcshan1@gmail.com>",
+  "description": "A collection of actions and helper functions for service now",
+  "main": "src/service-now-actions.js",
+  "scripts" : {
+    "test" : "mocha test"
+  },
+  "dependencies": {
+    "date-format": "^1.0.0",
+    "servicenow-rest": "^1.2.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "clone": "^2.1.0",
+    "mocha": "^3.5.0",
+    "nock": "^9.0.3"
+  }
+}
